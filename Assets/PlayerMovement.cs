@@ -15,7 +15,8 @@ public class PlayerMovement : MonoBehaviour
     {
         bool key = Input.GetKey("space");
         if(key){
-            GetComponent<Rigidbody2D>().velocity = new Vector3(0,jump,0);
+            //  JUMP
+            // GetComponent<Rigidbody2D>().velocity = new Vector3(0,jump,0);
         }   
     }
 }
